@@ -1,0 +1,32 @@
+.section-location .img-loc .img-card {
+    background-color: #fff;
+  
+    height: 350px;
+    width: 310px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1)
+  }
+
+  .section-location .img-loc .img-card img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  
+  .section-location .img-loc .img-card p {
+    display: inline;
+  }
+  
+  .section-location .img-loc .img-card .btn {
+    float: right;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #3d83df;
+    color: #fff;
+    padding: 10px 15px;
+    border: 0px;
+    border-radius: 5px;
+  }
+  

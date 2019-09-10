@@ -1,5 +1,4 @@
 import React from "react";
-import "../../App.css";
 import Navmenu from "./Navmenu";
 
 const Navbar = (props) => {
@@ -7,7 +6,7 @@ const Navbar = (props) => {
     <nav className="navbar">
       <a href="#">
         <img
-          class="logo-docplanner"
+          className="logo-docplanner"
           src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1"
           alt="Docplanner Group"
         />

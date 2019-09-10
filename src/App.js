@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from './components/navbar/Navbar'
-import Intro from "./components/intro/Intro"
-import Section1 from './components/section1/Section1'
-import Section2 from './components/section2/Section2'
-import Section3 from './components/section3/Section3'
-import Footer from './components/footer/Footer'
+import Intro from "./components/Intro"
+import Client from './components/Client'
+import Section2 from './components/Stats'
+import Cities from './components/cities/Cities'
+import Footer from './components/Footer'
 
-import {menu,users,features,cards} from './data'
+import "./App.css"
+
+import {menu,clients,stats,cities} from './data'
 
 
 const App = () => {
@@ -14,9 +16,9 @@ const App = () => {
     <div>
       <Navbar menu={menu}/>
       <Intro/>
-      <Section1 users={users}/>
-      <Section2 features={features}/>
-      <Section3 cards={cards}/>
+      <Client clients={clients}/>
+      <Section2 stats={stats}/>
+      <Cities cities={cities}/>
       <Footer/>
     </div>
   )
